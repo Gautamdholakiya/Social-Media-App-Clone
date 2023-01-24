@@ -1,0 +1,31 @@
+.post-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0 20px 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    /* border : 1px solid ; */
+}
+
+.post-content img{
+    width: 100%;
+    height: 100%;
+}
+.post-footer{
+    padding: 10px;
+    /* border: 1px solid; */
+}
+.like{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hert-icon{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.post-caption{
+    margin: 10px 0;
+    text-transform: capitalize;
+}

@@ -1,0 +1,76 @@
+.update-profile-container{
+    max-width: 960px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:160px;
+    gap: 70px;
+} 
+
+.update-profile form{
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.update-profile input{
+    width: 70%;
+    padding: 10px;
+}
+.update-profile form h1{
+    margin-bottom: 15px;
+}
+.update-profile form button{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.input-user-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+.userimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed black;
+}
+.userimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+.inputImage{
+    display: none;
+}
+.update-profile-btn{
+    display: flex;
+    gap: 15px;
+}
+.dlt-btn{
+    background-color: red;
+    color: white;
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}

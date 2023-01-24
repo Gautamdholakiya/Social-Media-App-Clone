@@ -1,0 +1,29 @@
+.navbar{
+    height: 60px;
+    border-bottom: 2px solid grey;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    backdrop-filter: blur(15px);
+    z-index: 9999;
+}
+
+.navbar-right-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-container{
+    height: 100%;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+.logout-btn{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.container-globel{
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+    max-width: 960px;
+    margin-inline: auto;
+} 
+.feed-left-side{
+    flex: 2;
+    padding: 15px 0;
+}
+.title-reight-side{
+    padding: 15px;
+}
+.title-suggeston{
+    padding: 15px;
+    margin-top: 40px;
+}
+.feed-left-side{
+    height: 88.6vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.feed-right-side{
+    height: 70.6vh;
+    flex: 1;
+}
+
+.follower-list{
+    height: 35.3vh;
+    overflow-y: scroll;
+}
+.suggestion-list{
+    height: 35.3vh;
+    overflow-y: scroll;
+}
